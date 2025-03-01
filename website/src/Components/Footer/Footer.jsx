@@ -97,7 +97,7 @@ export default function ColorInversionFooter() {
             <img alt="" src="/Images/College.png" />
           </AspectRatio>
           <CardContent>
-            <Typography level="body-sm">Intro to the MUI ecosystem</Typography>
+            <Typography level="body-sm">Intro to the Education ecosystem</Typography>
             <Typography level="body-xs">Blog post</Typography>
           </CardContent>
         </Card>
@@ -125,13 +125,13 @@ export default function ColorInversionFooter() {
             <ListSubheader sx={{ fontWeight: 'xl' }}>Products</ListSubheader>
             <List>
               <ListItem>
-                <ListItemButton>Joy UI</ListItemButton>
+                <ListItemButton>Counsultancy</ListItemButton>
               </ListItem>
               <ListItem>
-                <ListItemButton>MUI Base</ListItemButton>
+                <ListItemButton>College Prediction</ListItemButton>
               </ListItem>
               <ListItem>
-                <ListItemButton>Material UI</ListItemButton>
+                <ListItemButton>Collabrative Colleges</ListItemButton>
               </ListItem>
             </List>
           </ListItem>
