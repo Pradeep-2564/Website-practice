@@ -15,8 +15,7 @@ import SchoolIcon from '@mui/icons-material/School';
 import SearchIcon from '@mui/icons-material/Search';
 import { alpha, InputBase, styled } from '@mui/material';
 
-// Import components for pages
-import Home from '../Home/Home';  // Import the Home page component
+import Home from '../Home/Home';  
 import Support from '../Support/Support';
 import Blog from '../Blog/Blog';
 import Account from '../Account/Account';
@@ -46,14 +45,14 @@ function NavBar() {
   };
 
   const handlePageChange = (page) => {
-    setCurrentPage(page); // Update the current page when a menu item is clicked
+    setCurrentPage(page); 
     handleCloseNavMenu();
   };
 
   const renderContent = () => {
     switch (currentPage) {
       case 'Home':
-        return <Home />; // Render the Home component
+        return <Home />; 
       case 'Support':
         return <Support/>
       case 'Blog':
@@ -232,8 +231,6 @@ function NavBar() {
           </Toolbar>
         </Container>
       </AppBar>
-
-      {/* Content Area - Conditional Rendering based on state */}
       <div style={{ padding: '20px' }}>
         {renderContent()}
       </div>
