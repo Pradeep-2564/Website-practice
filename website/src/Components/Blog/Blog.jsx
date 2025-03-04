@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box, Grid, Card, CardMedia, CardContent, CardActions, Button } from '@mui/material';
-import "./Blog.css"
+
 function Blog() {
   return (
     <Container sx={{ mt: 5 ,}}>

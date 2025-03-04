@@ -11,7 +11,25 @@ function CollegeSetup() {
     Engineering: [
       'Indian Institute of Technology (IIT) Bombay',
       'Indian Institute of Technology (IIT) Delhi',
+      'Indian Institute of Technology (IIT) Kharagpur',
+      'Indian Institute of Technology (IIT) Hyderabad',
       'National Institute of Technology (NIT) Trichy',
+      'National Institute of Technology (NIT) Warangal',
+      'National Institute of Technology (NIT) Mangaluru',
+      'National Institute of Technology (NIT) Srinagar',
+      'National Institute of Technology (NIT) Surat',
+      'IIIT Hyderabad',
+      'IIIT Delhi',
+      'IIIT Kalyani',
+      'University of Hyderabad',
+      'Osmania University',
+      'Kakatiya University',
+      'Andhra University',
+      'IIIT Bhopal',
+      'CBIT Hyderabad',
+      'MGIT',
+      'MLRIT',
+      'CMR',
       'Bennett University',
     ],
     Medical: [
@@ -55,7 +73,7 @@ function CollegeSetup() {
 
   return (
     <Container>
-      <h1>College Setup</h1>
+      <h1 style={{marginBottom: "20px"}}>College Setup</h1>
       <div>
         <FormControl fullWidth style={{ marginBottom: '20px' }}>
           <InputLabel>College Type</InputLabel>

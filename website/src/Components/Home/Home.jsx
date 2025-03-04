@@ -1,9 +1,10 @@
 import React from 'react';
 import { Container, Typography, Box, Button } from '@mui/material';
-
+import './Home.css'
 function Home() {
   return (
-    <Container sx={{ mt: 5 }}>
+    <Container className='home' sx={{ mt: 5 }}>
+      <img src="https://www.nitk.ac.in/images/b5.jpg" alt="" />
       <Typography variant="h3" gutterBottom>
         Welcome to Education Portal: Medical and Engineering Colleges
       </Typography>
